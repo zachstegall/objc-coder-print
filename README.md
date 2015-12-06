@@ -1,3 +1,7 @@
 # objc-coder-print
 
-When setting up classes, entering the same property information for initializing, encoding and decoding becomes tedious real quick. I've developed something simple that will log these strings to the console for you. You can then copy and paste these straight into your code and be on your way coding much less tedious things like api calls :).
+When setting up classes that need archiving (<NSCoding>), entering property information 2 or more times over becomes tedious real quick. Here's a script that will print out the encoding, decoding, and initialization details for you. You can then copy and paste these straight into your code and be on your way.
+
+# Requirements
+ • Just have your properties ready. They'll need to be on one line (no line returns -- I just copy and paste mine into a search bar then copy it again).
+ • I have a semi-specific format layed out in the script. Should be easy enough to modify the file to your style/needs.
